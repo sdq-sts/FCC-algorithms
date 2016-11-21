@@ -14,7 +14,7 @@ function titleCase(str) {
     return elFirstChar + elArr
   })
 
-  return console.log(na.join(' '))
+  return na.join(' ')
 }
 
 titleCase("I'm a little tea pot") // => I'm A Little Tea Pot
