@@ -4,7 +4,7 @@ We'll pass you an array of two numbers. Return the sum of those two numbers and 
 The lowest number will not always come first.
 */
 
-function sumAll(arr) {
+function sumAll (arr) {
   let sum = 0
   arr.sort((a, b) => a - b)
   let min = arr[0]
